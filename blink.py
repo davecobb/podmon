@@ -3,6 +3,7 @@
 from time import sleep
 import RPi.GPIO as GPIO
 
+# set modes for pins
 GPIO.setmode(GPIO.BCM)
 LED_PIN = 22
 GPIO.setup(LED_PIN,GPIO.OUT)
