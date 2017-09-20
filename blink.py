@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-from time import sleep # import the time function from the sleep library
-import RPi.GPIO as GPIO # import our GPIO library
+from time import sleep
+import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
 LED_PIN = 22
