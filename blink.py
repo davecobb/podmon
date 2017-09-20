@@ -9,7 +9,7 @@ LED_PIN = 22
 GPIO.setup(LED_PIN,GPIO.OUT)
 
 GPIO.output(LED_PIN,GPIO.HIGH)
-sleep(1) # sleep for 1 second
+sleep(1) # 1 second
 
 # Turn LEDs off
 GPIO.output(LED_PIN,GPIO.LOW)
